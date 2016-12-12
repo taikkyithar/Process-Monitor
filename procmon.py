@@ -11,7 +11,7 @@ if not (psutil.LINUX or psutil.OSX or psutil.WINDOWS):
 
 proc_list = []
 
-r = requests.get("http://127.0.0.1/procmon/processlist.txt")
+r = requests.get("http://YOUR_SERVER_IP/process-monitor/processlist.txt")
 for line in r.iter_lines(1024):
     proc_list.append(line)
 
@@ -44,7 +44,7 @@ def main():
                        'process': str(events_set),
                        'time': str(time_str)}
 
-            s = requests.post("http://127.0.0.1/procmon/process.py", data=payload)
+            s = requests.post("http://YOUR_SERVER_IP/process-monitor/process.py", data=payload)
             del history[:]
             history = events
             events = []
