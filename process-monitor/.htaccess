@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteEngine on
+DirectoryIndex index.py
