@@ -12,8 +12,9 @@ The program will sent a HTTP request to the server when a process' is started an
 
 # Requirements
 
-Python 2.7
-Apache2
-Modules:  requests
-          psutil
-          cgi
+Python 2.7<br>
+Apache2<br><br>
+Modules: <br>
+<b>requests<br>
+psutil<br>
+cgi</b><br>
