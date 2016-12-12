@@ -10,6 +10,15 @@ The program will sent a HTTP request to the server when a process' is started an
 ![alt tag](https://github.com/raoulbigg/Porcess-Monitor/blob/master/P-M.png)
 
 
+
+# Usage
+
+
+1.) Update the procmon.py to your servers IP address<br>
+2.) Run the procmon.py on all the clients workstations <br>
+
+
+
 # Requirements
 
 Python 2.7<br>
