@@ -17,6 +17,7 @@ The program will sent a HTTP request to the server when a process is started and
 <b>2.)</b> Run: sudo chmod -R +x process-monitor<br>
 <b>3.)</b> Update the procmon.py to your servers IP address<br>
 <b>4.)</b> Run the procmon.py on all the clients workstations (You might want to compile it with pyinstaller) <br>
+<b>5.)</b> Go to: http://server_ip/process-monitor and change your desired process'
 
 
 
