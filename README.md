@@ -10,3 +10,10 @@ The program will sent a HTTP request to the server when a process' is started an
 ![alt tag](https://github.com/raoulbigg/Porcess-Monitor/blob/master/P-M.png)
 
 
+# Requirements
+
+Python 2.7
+Apache2
+Modules:  requests
+          psutil
+          cgi
