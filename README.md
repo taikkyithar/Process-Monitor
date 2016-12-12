@@ -13,7 +13,7 @@ The program will sent a HTTP request to the server when a process is started and
 
 # Usage
 
-<b>1.)</b> Download git and move to /var/www/html<br>
+<b>1.)</b> Download git and move it to /var/www/html<br>
 <b>2.)</b> Run: sudo chmod -R 777 process-monitor<br>
 <b>3.)</b> Update the procmon.py to your servers IP address<br>
 <b>4.)</b> Run the procmon.py on all the clients workstations (You might want to compile it with pyinstaller) <br>
